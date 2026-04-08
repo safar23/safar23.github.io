@@ -1,16 +1,171 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ثانوية الملك فهد بالحرس الوطني - الظهران</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Tahoma", sans-serif;
+    background: #f4f6f9;
+}
+
+/* Navbar */
+nav {
+    background: #0d47a1;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    background: url('https://images.unsplash.com/photo-1588072432836-e10032774350') center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+/* Sections */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Gallery */
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+</style>
 </head>
+
 <body>
-    <h1>    ثانوية الملك فهد بالحرس الوطني</h1>
-    التقنية الرقمية ٢
-    <br>
-    <mark>مثال عملي</mark>
-    <br>
-    <img src="img.jpeg" alt="النص البديل" height="190" width="190">
+
+<!-- Navbar -->
+<nav>
+    <h1>ثانوية الملك فهد</h1>
+    <ul>
+        <li>الرئيسية</li>
+        <li>عن المدرسة</li>
+        <li>الأنشطة</li>
+        <li>تواصل</li>
+    </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <h2>مرحباً بكم في ثانوية الملك فهد بالحرس الوطني</h2>
+    <p>نحو تعليم متميز وبناء جيل واعٍ ومبدع</p>
+</section>
+
+<!-- About -->
+<section class="section">
+    <h2>عن المدرسة</h2>
+    <p>
+        ثانوية الملك فهد بالحرس الوطني بالظهران هي إحدى المدارس الرائدة في تقديم التعليم الثانوي،
+        حيث تسعى إلى تطوير مهارات الطلاب علمياً وعملياً في بيئة تعليمية متكاملة.
+    </p>
+</section>
+
+<!-- Vision -->
+<section class="section">
+    <h2>رؤيتنا وأهدافنا</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>الرؤية</h3>
+            <p>التميز في التعليم وبناء جيل قيادي.</p>
+        </div>
+        <div class="card">
+            <h3>الرسالة</h3>
+            <p>تقديم تعليم عالي الجودة باستخدام أحدث التقنيات.</p>
+        </div>
+        <div class="card">
+            <h3>الأهداف</h3>
+            <p>تنمية التفكير، الإبداع، والانضباط لدى الطلاب.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Activities -->
+<section class="section">
+    <h2>الأنشطة الطلابية</h2>
+    <div class="cards">
+        <div class="card">📘 الأنشطة التعليمية</div>
+        <div class="card">⚽ الأنشطة الرياضية</div>
+        <div class="card">💻 الأنشطة التقنية</div>
+        <div class="card">🎤 الإذاعة المدرسية</div>
+    </div>
+</section>
+
+<!-- Gallery -->
+<section class="section gallery">
+    <h2>معرض الصور</h2>
+    <div class="cards">
+        <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754">
+        <img src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238">
+        <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b">
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="section">
+    <h2>تواصل معنا</h2>
+    <p>📍 الظهران - المملكة العربية السعودية</p>
+    <p>📞 0000000000</p>
+    <p>📧 school@email.com</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    جميع الحقوق محفوظة © 2026
+</footer>
+
 </body>
 </html>
